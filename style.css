@@ -29,7 +29,8 @@ button {
   background-color: #3882f6;
   padding: 8px 16px;
   color: #e5e7eb;
-  border-radius: 25px;
+  border-radius: 16px;
+  border-color: #3882f6;
 }
 
 img {
@@ -103,15 +104,35 @@ img {
   font-weight: lighter;
   font-size: 36px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-author {
+  text-align: right;
+
 }
 
 .cfa-section {
   background: #3882f6;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  margin: 5% 5%;
+  padding: 5% 5%;
 }
 
-.cfa-section button{
-  border: #e5e7eb;
+.cfa-head {
+  font-size: 36px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.left {
+  text-align: left;
+  color: #f9faf8;
+}
+
+.cfa-section button {
+  border-color: #e5e7eb;
 }
